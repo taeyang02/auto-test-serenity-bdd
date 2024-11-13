@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/java/com/example/demo/features",
-        glue = "com.example.demo.steps"
+        glue = "com.example.demo.steps.hooks.HookSteps"
 )
 public class CucumberTestSuite {
 }
